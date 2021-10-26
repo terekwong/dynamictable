@@ -1,0 +1,41 @@
+<!--
+    Tere Kwong
+    10/26/2021
+
+    Webpage that creates a dynamic multiplication table.
+
+    Sources referenced: w3schools
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Multiplication Table</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <table id="form">
+        <tr>
+            <td>
+            <form id="frm1" autocomplete="off">
+                Smallest Column Value: <input type="text" name="scol"><br>
+                Largest Column Value: <input type="text" name="lcol"><br>
+                Smallest Row Value: <input type="text" name="srow"><br>
+                Largest Row Value: <input type="text" name="lrol"><br>
+                <input type="button" onclick="createTable()" value="Submit">
+            </form>
+            </td>
+        </tr>
+    </table>
+
+    <p id="error"></p>
+
+    <div id="div1"></div>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
