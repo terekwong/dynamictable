@@ -1,0 +1,85 @@
+/*
+    Tere Kwong
+    10/26/2021
+
+    css for index.html
+
+    Sources referenced: w3schools
+*/
+
+body {
+    min-width: 500px;
+    min-height: 500px;
+}
+
+/* contains the form and submit button */
+#form {
+    margin: auto;
+}
+
+#form table, tr, td {
+    text-align: center;
+    width: 480px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    border-collapse: collapse;
+}
+
+/* the error message that is displayed for invalid inputs*/
+#error {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* contains the generated table */
+#div1 {
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 500px;
+    width: 500px;
+}
+
+#div1 table {
+    background-color: white;
+}
+
+#div1 table, th, td {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#div1 th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+#div1 th:first-child {
+    position: sticky;
+    left: 0;
+}
+
+#div1 td:first-child{
+    visibility: hidden;
+}
+
+#div1 td {
+    text-align: center;
+    padding: 3px;
+    font-weight:bold;
+}
+
+#div1 tr:nth-child(2n + 1){
+    background-color: orange;
+}
+
+#div1 tr {
+    background-color: lightblue;
+}
+
